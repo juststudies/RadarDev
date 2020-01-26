@@ -1,0 +1,40 @@
+.button-group{
+    display: flex;
+}
+.button{
+    margin-top: 15px;
+    padding: 10px 30px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #FFF;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.Edit{
+    background-color:#C5A3FF;
+    transition: background 0.5s;
+}
+
+.Delete{
+    background-color: #EC6778;
+    transition: background 0.5s;
+}
+
+.Cancel{
+    background-color: #999;
+    transition: background 0.5s;
+}
+
+.Edit[type=button]:hover{
+    background-color: #8D74B8;
+}
+
+.Delete[type=submit]:hover{
+    background-color: #B84F5C;
+}
+
+.Cancel[type=button]:hover{
+    background-color: #555;
+}
