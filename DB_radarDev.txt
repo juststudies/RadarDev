@@ -1,4 +1,0 @@
-#DB
-DB_NAME =radar-dev
-DB_ADMIN =nico
-DB_PWD =FInV2fabbhos1RaJ
